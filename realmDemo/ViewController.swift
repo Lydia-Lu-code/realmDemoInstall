@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ViewController: UIViewController {
 
@@ -16,4 +17,9 @@ class ViewController: UIViewController {
 
 
 }
+//
+//class CategoryRealm: Object {
+//    @objc dynamic var name: String = ""
+//    let itemRealms = List<ItemRealm>()
+//}
 
